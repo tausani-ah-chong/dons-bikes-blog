@@ -1,12 +1,10 @@
 import Link from 'next/link'
 
-function RoadBike ({ roadBikePic }) {
+
+function RoadBike () {
   return (
     <>
       <h1>Road Bike</h1>
-      <div>
-        <img src={roadBikePic.download_url} />
-      </div>
       <h3>
         <Link href='/'>
           <a>Back to Home</a>
@@ -16,15 +14,5 @@ function RoadBike ({ roadBikePic }) {
   )
 }
 
-export async function getStaticProps() {
-  const res = await fetch('https://picsum.photos/id/859/info')
-  const roadBikePic = await res.json()
-
-  return {
-    props: {
-      roadBikePic
-    }
-  }
-}
 
 export default RoadBike

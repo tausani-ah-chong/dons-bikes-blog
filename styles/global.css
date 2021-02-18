@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'MADE_Dillan';
+  src: url('/fonts/MADE_Dillan.otf');
+ }
+
+html { 
+  background: url(/donsBikeMain2.5.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'MADE_Dillan', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #eaac7f;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+/* img {
+  max-width: 100%;
+  display: block;
+} */
